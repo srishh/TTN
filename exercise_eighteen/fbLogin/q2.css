@@ -1,0 +1,240 @@
+div.container {
+    margin: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img.fbimg {
+    height: 210px;
+    margin: -50px 0 0 11%;
+    display: inline-block;
+}
+div.header {
+    background-color: #3b5998;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    text-align: left;
+}
+.emailPhone {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    font-size: small;
+    margin: 25px 150px 100px 400px;
+}
+.email {
+    display: inline-block;
+    position: absolute;
+    margin: 45px 150px 80px 400px;
+    width: 10%;
+    border: 1px solid black;
+}
+.pwd {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    font-size: small;
+    margin: 25px 0px 100px 550px;
+}
+.password {
+    display: inline-block;
+    position: absolute;
+    margin: 45px 0px 80px 550px;
+    width: 10%;
+    border: 1px solid black;
+}
+button.login {
+    display: inline-block;
+    position: absolute;
+    margin: 45px -150px 80px 700px;
+    color: white;
+    background-color: #3d64c0;
+    border: 2px solid #254b9b;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.forgot {
+    display: inline-block;
+    position: absolute;
+    margin: 70px 0px 35px 550px;
+    text-decoration: none;
+    font-size: small;
+    color: rgba(255, 255, 255, 0.603);
+}
+.forgot:hover {
+    text-decoration: underline;
+}
+div.pageContent {
+    position: relative;
+    clear: both;
+    width: 100%;
+}
+div.image {
+    background-image: linear-gradient(white, #dfe3ee);
+    float: left;
+    width: 50%;
+    height: 588.55px;
+}
+p.text1 {
+    font-size: larger;
+    color: #12285c;
+    font-weight: bold;
+    padding: 5% 10% 0 20%;
+}
+img.connecting {
+    padding: 0 10% 0 20%;
+}
+div.signUp {
+    background-image: linear-gradient(white, #dfe3ee);
+    float: right;
+    width: 50%;
+    padding-top: 3%;
+    height: 550px;
+}
+.createAcc {
+    font-size: xx-large;
+    color: #000000ce;
+    font-weight: bolder;
+    padding: 0 20% 0 10%;
+}
+.itsFree {
+    font-size: large;
+    color: #000000;
+    padding: 10% 20% 0 10%;
+}
+.firstName {
+    border: 1px solid rgba(165, 165, 165, 0.808);
+    border-radius: 4px;
+    font-size: medium;
+    padding: 10px;
+    margin: 2% 1% 0 10%;
+}
+.surname {
+    border: 1px solid rgba(165, 165, 165, 0.808);
+    border-radius: 4px;
+    font-size: medium;
+    padding: 10px;
+    margin: 2% 0 0 0;
+}
+.mobile {
+    border: 1px solid rgba(165, 165, 165, 0.808);
+    border-radius: 4px;
+    font-size: medium;
+    padding: 10px;
+    margin: 2% 0 0 10%;
+    width: 66.5%;
+}
+.newPwd {
+    border: 1px solid rgba(165, 165, 165, 0.808);
+    border-radius: 4px;
+    font-size: medium;
+    padding: 10px;
+    margin: 2% 0 4% 10%;
+    width: 66.5%;
+}
+.bday {
+    font-size: large;
+    margin: 2% 0 0 10%;
+}
+.day {
+    margin: 2% 0 0 10%;
+    background-color: white;
+    font-size: small;
+    padding: 3px 5px 3px 5px;
+    border: 1px solid rgba(165, 165, 165, 0.808);
+}
+.month {
+    margin: 2% 0 0 0;
+    background-color: white;
+    font-size: small;
+    padding: 3px 5px 3px 5px;
+    border: 1px solid rgba(165, 165, 165, 0.808);
+}
+.year {
+    margin: 2% 0 0 0;
+    background-color: white;
+    font-size: small;
+    padding: 3px 5px 3px 5px;
+    border: 1px solid rgba(165, 165, 165, 0.808);
+}
+.whydob {
+    text-decoration: none;
+    color: #3b5998;
+    font-size: x-small;
+    margin: 0 20% 0 1.5%;
+}
+.whydob:hover {
+    text-decoration: underline;
+}
+.female {
+    margin: 3% 0 0 12%;
+}
+.male {
+    margin: 3% 0 0 5%;
+}
+.tandc {
+    margin: 3% 50% 0 10%;
+    font-size: x-small;
+    color: rgb(129, 129, 129);
+}
+.terms, .dataPolicy, .cookiePolicy {
+    text-decoration: none;
+    color: #3b5998;
+}
+.terms:hover, .dataPolicy:hover, .cookiePolicy:hover {
+    text-decoration: underline;
+}
+.signupBtn {
+    background-image: linear-gradient(rgb(0, 182, 0), rgb(2, 141, 2));
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    padding: 1.5% 9% 1.5% 9%;
+    margin: 3% 20% 0 10%;
+    border: 1px solid green;
+    border-radius: 4px;
+}
+.createPage {
+    margin: 5% 20% 0 10%;
+    font-size: small;
+}
+.create {
+    text-decoration: none;
+    color: #3b5998;
+    font-weight: bold;
+}
+.create:hover {
+    text-decoration: underline;
+}
+.footer {
+    padding: 10% 10% 0 10%;
+    text-align: left;
+}
+.EnglishUK, .hin, .pun, .ban, .mar, .tamil, .urdu, .tel, .kan {
+    font-size: x-small;
+    padding-right: 0.5%;
+    text-decoration: none;
+    color: #3b5998;
+    padding-top: 5%;
+}
+.hin:hover, .pun:hover, .ban:hover, .mar:hover, .tamil:hover, .urdu:hover, .tel:hover, .kan:hover {
+    text-decoration: underline;
+}
+.add {
+    margin-top: 5%;
+    font-weight: bolder;
+    font-size: medium;
+}
+.links a{
+    padding-bottom: 10px;
+    font-size: small;
+    padding-right: 1%;
+    text-decoration: none;
+    color: #3b5998;
+}
+.links a:hover {
+    text-decoration: underline;
+}
+.fnote {
+    font-size: x-small;
+    color: gray;
+}

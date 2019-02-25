@@ -1,0 +1,113 @@
+div.container {
+    font-family: 'Google Sans', arial, sans-serif;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+}
+div.box {
+    display: inline-block;
+    margin: 6% 32.5% 0 32.5%;
+    border: 1px solid #d9d9d9;
+    border-radius: 7px;
+}
+img {
+    margin-top: 50px;
+    display: inline-block;
+}
+div.signin {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: x-large;
+}
+div.withgoogle {
+    margin-top: 10px;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+}
+div.float {
+    position: relative;
+}
+input.email {
+    font-size: medium;
+    margin-top: 30px;
+    padding: 20px;
+    width: 72.5%;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+    font-size: 14px;
+}
+div label {
+    position: absolute;
+    left: 60px;
+    top: 50px;
+    color: gray;
+}
+input.email:focus + label {
+    top: 25px;
+    transition: 0.2s;
+    color: #1a73e8;
+    font-size: small;
+    font-weight: bold;
+    background-color: white;
+}
+input.email:focus {
+    outline: none;
+    border: 1px solid #1a73e8;
+}
+input.email:not(:focus) + label {
+    transition: 0.2s;
+}
+div.section {
+    text-align: left;
+    margin: 30px 40px 50px 40px;
+}
+a.forgot, a.learnMore, a.create {
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    font-weight: 550;
+}
+a.learnMore {
+    margin-top: 0;
+}
+p.t1 {
+    color: gray;
+    font-size: 14px;
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+div.sec {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+a.create {
+    margin-right: 160px;
+}
+.btn {
+    border: 1px solid #1a73e8;
+    background-color: #1a73e8;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+div.foot {
+    margin: 20px 32.5% 6% 32.5%;
+    text-align: left;
+}
+.dropdown {
+    background: transparent;
+    border: transparent;
+    font-size: 12px;
+    color: rgb(41, 41, 41);
+    margin-right: 155px;
+}
+a.help, a.privacy, a.terms {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    font-size: 12px;
+    padding-right: 10px;
+}
