@@ -1,0 +1,78 @@
+div.container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 35%;
+    margin: 15%;
+    padding: 3% 7% 2% 7%;
+    text-align: center;
+    border: 3px solid rgba(121, 160, 199, 0.877);
+    border-radius: 5px;
+    background-color: rgb(121, 125, 146);
+}
+div.formWrapper {
+    position: relative;
+    padding: 5%;
+    border: 1px solid rgba(121, 160, 199, 0.877);
+    background-color: rgb(220, 225, 230);
+    border-radius: 5px;
+    text-align: center;
+}
+hr.hr {
+    color: rgba(128, 128, 128, 0.5);
+}
+h1 {
+    position: absolute;
+    background-color: rgb(220, 225, 230);
+    top: -3%;
+    left: 40%;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.603);
+}
+p.create {
+    color: grey;
+    margin-top: 7%;
+}
+form {
+    text-align: left;
+}
+.fName, .lName, .email, .pwd, .cPwd {
+    padding-left: 5px;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 5%;
+    margin-right: 2.5%;
+}
+.email, .pwd, .cPwd {
+    width: 95%;
+}
+.check {
+    margin-top: 5%;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: rgb(2, 124, 2);
+}
+.accept {
+    font-size: small;
+    display: inline-block;
+    color: grey;
+}
+.regNow {
+    width: 95%;
+    font-size: medium;
+    font-weight: bold;
+    padding: 5px 10px;
+    color: white;
+    border: 1px solid rgb(2, 124, 2);
+    border-radius: 4px;
+    background: linear-gradient(rgb(5, 156, 5), rgb(2, 124, 2));
+}
+.signIn {
+    color: white;
+    font-size: small;
+    top: 0;
+}
+a.sign-in {
+    color: white;
+    text-decoration: underline;
+}

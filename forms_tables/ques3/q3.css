@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif; 
+    background-image: url("../assets/paper-1074131_1920.jpg");
+    display: inline-block;
+}
+h1 {
+    text-align: center;
+    color: brown;
+}
+img.image {
+    display: inline-block;
+}
+div.text {
+    display: inline-block;
+}
