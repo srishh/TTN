@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    padding: auto 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+}
+div.top-panel {
+    text-align: center;
+    width: 100%;
+    background-color: rgba(230, 230, 230, 0.5);
+    display: inline-block;
+    clear: both;
+}
+div.top-panel a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: small;
+    color: grey;
+}
+div.top-panel p {
+    display: inline-block;
+}
+div.top-panel i {
+    padding-left: 25px;
+    font-size: medium;
+    color: rgb(33, 192, 33);
+}
+.top1 {
+    margin: auto 30px;
+    float: left;
+}
+.top2 {
+    margin: auto 30px;
+    padding-right: 50px;
+    padding-top: 15px;
+    float: right;
+}
+div.panel {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    clear: both;
+}
+.logo {
+    float: left;
+    left: 0;
+}
+.action {
+    float: right;
+    margin-right: 150px;
+}
+.action p {
+    display: inline-block;
+    text-align: left;
+    padding-right: 30px;
+    font-size: small;
+}
+.action a {
+    font-size: larger;
+    color: rgb(33, 192, 33);
+}
+button.apply {
+    background-color: transparent;
+    border: 3px solid rgb(33, 192, 33);
+    color: rgb(33, 192, 33);
+    font-size: small;
+    font-weight: bold;
+}
+div.nav {
+    padding: auto 5%;
+    background-color: rgb(33, 192, 33);
+    text-align: center;
+    margin-bottom: 0;
+}
+.nav ul {
+    display: inline-block;
+    list-style: none;
+}
+.nav ul li {
+    display: inline-block;
+}
+.nav ul li a {
+    text-decoration: none;
+    padding-right: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+}
+section {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+}
+div.banner {
+    background-image: url("../assets/thought-2123970_1280.jpg");
+    text-align: center;
+    height: 60%;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 15%;
+}
+div.banner h1 {
+    margin: 0;
+    padding: 13% 35% 0 35%;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: white;
+}
+div.banner p {
+    color: white;
+    font-size: small;
+    font-weight: 500;
+    padding: 0 30% 0 30%;
+}
+div.banner button {
+    margin-top: 2%;
+    padding: 10px 20px;
+    font-size: small;
+    color: white;
+    font-weight: bold;
+}
+div.banner .btn1 {
+    border: 1px solid rgb(33, 192, 33);
+    background-color: rgb(33, 192, 33);
+}
+div.banner .btn2 {
+    border: 2px solid white;
+    background-color: transparent;
+}
+div.bottom {
+    display: flex;
+    width: 75%;
+    text-align: center;
+    margin: -5% auto 0 auto;
+}
+div.bottom .b1 {
+    text-align: center;
+    color: white;
+    background-color: dodgerblue;
+    padding: 10px 20px;
+    width: 25%;
+}
+div.bottom .b2 {
+    text-align: center;
+    color: white;
+    background-color: indianred;
+    padding: 10px 20px;
+    width: 25%;
+}
+div.bottom .b3 {
+    text-align: center;
+    color: white;
+    background-color: yellowgreen;
+    padding: 10px 20px;
+    width: 25%;
+}
+div.bottom i {
+    font-size: x-large;
+}
+div.bottom .b4 {
+    text-align: center;
+    color: white;
+    background-color: darkorange;
+    padding: 10px 20px;
+    width: 25%;
+}
