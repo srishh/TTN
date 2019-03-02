@@ -1,0 +1,426 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div.container {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+div.header {
+    display: inline-block;
+    width: 100%;
+}
+div.top-panel {
+    width: 100%;
+    background-color: white;
+    text-align: right;
+}
+.top-panel a {
+    text-decoration: none;
+    font-size: x-small;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.753);
+    padding-right: 20px;
+}
+div.panel {
+    padding: 1% 5% ;
+    display: flex;
+    margin: 0;
+    background: linear-gradient(to right, white, lightgrey);
+}
+div.logo {
+    display: inline-block;
+}
+h2 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: x-large;
+    font-weight: 900;
+    color: darkorange;
+}
+div.bonjour{
+    display: inline-block;
+    line-height: 5;
+    padding-left: 3%;
+}
+.bonjour p{
+    font-size: small;
+    color: rgba(100, 100, 100, 0.801);
+    font-style: italic;
+}
+div.nav {
+    line-height: 4;
+    margin: 0;
+    padding: 0;
+    margin-left: 40%;
+}
+.nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+.nav ul li a {
+    text-decoration: none;
+    font-size: small;
+    font-weight: bold;
+    padding-right: 20px;
+    color: rgba(0, 0, 0, 0.705);
+}
+.nav ul li a.navLast {
+    padding-right: 0;
+}
+div.content {
+    margin: 0;
+    text-align: center;
+    background-image: url("../assets/img1.png");
+    border-bottom: 1px solid rgba(128, 128, 128, 0.705);
+}
+.content p {
+    margin: 0;
+    padding: 5% 10% 12% 10%;
+    color: black;
+    font-size: xx-large;
+}
+div.content hr.line1 {
+    width: 5%;
+    height: 3px;
+    background-color: darkorange;
+    border: 2px solid darkorange;
+}
+div.banner {
+    margin: 0;
+    display: flex;
+    text-align: center;
+    padding: 5%;
+}
+.banner div {
+    margin: auto;
+    border-right: 1px solid rgba(128, 128, 128, 0.705);
+    padding-right: 10%; 
+}
+.banner div.cont {
+    border: none;
+}
+.banner div p {
+    font-size: large;
+}
+div .tabs {
+    margin: 0;
+    text-align: center;
+    display: flex;
+    padding: 2%;
+}
+.tabs div {
+    margin: auto;
+    padding: 1% 5%;
+    border-right: 1px solid rgba(128, 128, 128, 0.705);
+    color: grey;
+}
+.tabs .no {
+    color: darkorange;
+    font-weight: bold;
+}
+.tabs div.tab5 {
+    border: none;
+}
+hr.line2 {
+    color: grey;
+    margin: 0;
+}
+div.footer {
+    margin: 0;
+}
+div.f1 {
+    background-color: rgba(0, 0, 0, 0.904);
+    text-align: center;
+    color: white;
+    padding: 3% 0;
+} 
+div.f1 p {
+    font-size: xx-large;
+    font-weight: 500;
+}  
+div.f2 {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.904);
+    vertical-align: middle;
+}
+div.f2 .f21 {
+    border: 0px solid rgba(34, 34, 34, 0.904);
+    border-radius: 7px;
+    background-color: rgba(34, 34, 34, 0.904);
+    padding: 0.5%;
+    height: 32%;
+    margin-left: 5%;
+}
+div.f2 .f21 .nos, div.f2 .f21 .nos1 {
+    font-size: x-large;
+    color: darkorange;
+    margin-bottom: 0;
+}
+div.f2 .f21 .txts, div.f2 .f21 .txts1 {
+    font-size: smaller;
+    font-weight: bold;
+    color: grey;
+    margin-top: 0;
+}
+div.f2 .f21 .nos1 {
+    margin-top: 0;
+}
+div.f2 .f21 .txts1 {
+    margin-bottom: 0;
+}
+div.f2 .f22 {
+    text-align: center;
+    margin-left: 10%;
+    position: relative;
+}
+div.f2 .f22 .line3 {
+    width: 7%;
+    background-color: darkorange;
+    height: 3px;
+    border: 2px solid darkorange;
+}
+div.f2 .f23 {
+    border: 0px solid rgba(34, 34, 34, 0.904);
+    border-radius: 7px;
+    background-color: rgba(34, 34, 34, 0.904);
+    padding: 0.5%; 
+    height: 30%; 
+    margin-left: 8%;
+    margin-right: 5%;  
+}
+div.f2 .f23 p {
+    font-size: smaller;
+    font-weight: bold;
+    color: grey;
+}
+.client, .our {
+    display: flex;
+}
+.cl, .ou {
+    margin: 0;
+    padding: 0;
+}
+.f23 .dotcLoc {
+    border: 0px solid darkorange;
+    border-radius: 50%;
+    background-color: darkorange;
+    width: 2.5px;
+    height: 2.5px;
+    box-shadow: 0 0 2px 2px darkorange;
+}
+.f23 .dotoLoc {
+    border: 0px solid purple;
+    border-radius: 50%;
+    background-color: purple;
+    width: 2.5px;
+    height: 2.5px;
+    box-shadow: 0 0 2px 2px purple;
+}
+div.f22 div {
+    border: 0px solid darkorange;
+    border-radius: 50%;
+    background-color: darkorange;
+    width: 2.5px;
+    height: 2.5px;
+    box-shadow: 0 0 2px 2px darkorange;
+}
+div.f22 div.d1, div.f22 div.d2, div.f22 div.d3, div.f22 div.d4, div.f22 div.d5, div.f22 div.d6 {
+    border: 0px solid purple;
+    border-radius: 50%;
+    background-color: purple;
+    width: 2.5px;
+    height: 2.5px;
+    box-shadow: 0 0 2px 2px purple;
+}
+div.f3 {
+    display: flex;
+    background-color: rgba(51, 51, 51, 0.904);
+    border-bottom: 1px solid grey;
+}
+div.f3 .f31 {
+    margin-left: 7%;
+    width: 30%;
+    padding: 2% 0;
+}
+div.f3 p {
+    font-size: x-small;
+    color: rgba(255, 255, 255, 0.801);
+    font-weight: bold;
+}
+div.f3 i {
+    font-size: xx-large;
+    color: darkorange;
+    padding-right: 3%;
+}
+div.f3 .f32 {
+    font-size: x-small;
+    color: rgba(255, 255, 255, 0.801);
+    font-weight: bold;
+    margin-left: 35%;
+    margin-right: 7%;
+    padding: 2% 0;
+}
+div.f32 .email {
+    font-size: x-small;
+    padding: 2%;
+    width: 70%;
+    margin-right: 0;
+} 
+div.f32 button {
+    background-color: darkorange;
+    font-size: x-small;
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.801);
+    border: none;
+    margin-left: 0;
+    padding: 3%;
+}
+div.f4 {
+    display: flex;
+    background-color: rgba(51, 51, 51, 0.904);
+    padding: 2% 0 2% 45%;
+}
+div.f4 p {
+    font-size: x-small;
+    color: rgba(255, 255, 255, 0.801);
+    font-weight: bold;
+}
+div.f5 {
+    background-color: rgba(0, 0, 0, 0.904);
+    padding: 0.5% 0 0 47%;
+}
+div.f5 p {
+    font-size: small;
+    color: rgba(128, 128, 128, 0.705);
+    font-weight: bolder;
+}
+div.f5 i {
+    font-weight: 900;
+    color: white;
+    margin-left: 4%;
+}
+div.d1 {
+    position: absolute;
+    top: 35.5%;
+    left: 70%;
+}
+div.d2 {
+    position: absolute;
+    top: 41.5%;
+    left: 62%;
+}
+div.d3 {
+    position: absolute;
+    top: 44%;
+    left: 69%;
+}
+div.d4 {
+    position: absolute;
+    top: 40%;
+    left: 80.5%;
+}
+div.d5 {
+    position: absolute;
+    top: 47.5%;
+    left: 79.7%;
+}
+div.d6 {
+    position: absolute;
+    top: 55.5%;
+    left: 82.2%;
+}
+div.d7 {
+    position: absolute;
+    top: 20.5%;
+    left: 14%;
+}
+div.d8 {
+    position: absolute;
+    top: 22%;
+    left: 17%;
+}
+div.d9 {
+    position: absolute;
+    top: 42%;
+    left: 12.5%;
+}
+div.d10 {
+    position: absolute;
+    top: 56%;
+    left: 19.7%;
+}
+div.d11 {
+    position: absolute;
+    top: 65%;
+    left: 23%;
+}
+div.d12 {
+    position: absolute;
+    top: 68.5%;
+    left: 29%;
+}
+div.d13 {
+    position: absolute;
+    top: 79.7%;
+    left: 26.7%;
+}
+div.d14 {
+    position: absolute;
+    top: 72%;
+    left: 88%;
+}
+div.d15 {
+    position: absolute;
+    top: 27.5%;
+    left: 45%;
+}
+div.d16 {
+    position: absolute;
+    top: 26.5%;
+    left: 48%;
+}
+div.d17 {
+    position: absolute;
+    top: 27%;
+    left: 54%;
+}
+div.d18 {
+    position: absolute;
+    top: 31%;
+    left: 56.5%;
+}
+div.d19 {
+    position: absolute;
+    top: 70.5%;
+    left: 50.5%;
+}
+div.d20 {
+    position: absolute;
+    top: 64%;
+    left: 56%;
+}
+div.d21 {
+    position: absolute;
+    top: 44.5%;
+    left: 69.7%;
+}
+div.d22 {
+    position: absolute;
+    top: 39.5%;
+    left: 71.5%;
+}
+div.d23 {
+    position: absolute;
+    top: 49%;
+    left: 78.8%;
+}
+div.d24 {
+    position: absolute;
+    top: 39.3%;
+    left: 81.8%;
+}
