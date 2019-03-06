@@ -1,0 +1,25 @@
+* {
+    margin: auto;
+}
+div.d0 {
+    width: 100px;
+    height: 100px;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: red;
+    animation-name: opacity;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+    animation-delay: 3s;
+}
+@keyframes opacity {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}

@@ -1,0 +1,15 @@
+div.d0 {
+    margin: auto;
+    width: 200px;
+    height: 100px;
+    background-color: #ff00ff;
+    border: 1px solid #000;
+}
+div.d0:active {
+    width: 100px;
+    height: 200px;
+    background-color: #000;
+    border: 2px solid #ff00ff;
+    transform: scale(2,3);
+    transition-duration: 3s;
+}
